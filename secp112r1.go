@@ -18,7 +18,7 @@ func initP112() {
 	p112.Gx, _ = new(big.Int).SetString("09487239995a5ee76b55f9c2f098", 16)
 	p112.Gy, _ = new(big.Int).SetString("a89ce5af8724c0a23e0e0ff77500", 16)
 	p112.BitSize = 128
-	p112.Name = "secp128r1"
+	p112.Name = "secp112r1"
 }
 
 func P112() elliptic.Curve {
